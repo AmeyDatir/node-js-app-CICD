@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from jenkins, pm2 deployed Node.js app through jenkins cicd pipeline');
+  res.send('Hello from jenkins, pm2 deployed Node.js app through jenkins cicd');
 });
 
 app.listen(port, () => {
